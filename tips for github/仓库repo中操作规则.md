@@ -10,3 +10,5 @@
 md文件是Markdown文件的后缀名，其语法简单，版面整洁，take it easy:)
 
 md文件的语法[请参考这里](https://www.cnblogs.com/liugang-vip/p/6337580.html)
+
+！！值得注意的是，要注意空格，比如一级标题由#来打头，要加上空格，才符合语法规则；否则就会在preview中看到#还出现在文章中，就很奇怪。
