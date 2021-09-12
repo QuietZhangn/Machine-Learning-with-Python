@@ -1,3 +1,5 @@
+先介绍整体的操作，1下载git，2安装git，3制定git的用户名和邮箱，同时将git和github进行SSH关联，4选一个文件夹进行git init，5git clone,6愉快地使用吧，不懂再进行查找。
+
 git安装到官网，[观看教程](https://www.cnblogs.com/xueweisuoyong/p/11914045.html),由于版本差异在安装过程中存在一些差异，不影响操作。
 
 建议先在github上搭建自己的仓库repository，之后在通过git来克隆到自己的电脑上。
@@ -10,6 +12,7 @@ git安装到官网，[观看教程](https://www.cnblogs.com/xueweisuoyong/p/1191
 就可以成功的将github上建立好的项目clone到自己的电脑上了。为之后在电脑端上传做好了准备。
 
 啊啊啊啊啊我疯了，xdm 在github上建立文件时，**不要加标点符号！！**。我就是因为加了一个问号，结果一直不能成功clone到自己的本地仓库。否则就会一直出现下面这个错误。
+
 '''
 error: invalid path 'Machine Learning/what is machine learning?.md'
 fatal: unable to checkout working tree
