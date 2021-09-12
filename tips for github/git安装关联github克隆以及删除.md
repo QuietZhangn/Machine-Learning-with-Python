@@ -17,6 +17,11 @@ git安装到官网，[观看教程](https://www.cnblogs.com/xueweisuoyong/p/1191
 * 找一个英文路径的文件夹，右键打开git bash面板，git clone git@github.com:QuietZhangn/Machine Learning with Python，
 就可以成功的将github上建立好的项目clone到自己的电脑上了。为之后在电脑端上传做好了准备。
 
+## git commit
+在本地想要上传文件到云端，就需要推送，首先使用git commit暂存到本地代码库，之后用git push推送到云端。
+`git commit -m '提交的注释'`
+更多关于git的操作，[点击这里](https://www.cnblogs.com/tugenhua0707/p/4050072.html)and[这里](https://www.bootcss.com/p/git-guide/)，后一篇文章的页面很简洁。
+
 啊啊啊啊啊我疯了，xdm 在github上建立文件时，**不要加标点符号！！**。我就是因为加了一个问号，结果一直不能成功clone到自己的本地仓库。否则就会一直出现下面这个错误。
 **反引号是esc键下面的键，不是单引号**
 
@@ -27,3 +32,6 @@ warning: Clone succeeded, but checkout failed.
 You can inspect what was checked out with 'git status'
 and retry with 'git restore --source=HEAD :/'
 ```
+
+## github上的文件删除--通过git
+我们克隆到本地的文件，进行操作，删除不想要的文件，然后推送给云端的代码库，实现更新，即相应文件的删除。还挺麻烦的哈，目前只知道这样一种方法。具体操作[可以点击](https://zhuanlan.zhihu.com/p/95508176)。
